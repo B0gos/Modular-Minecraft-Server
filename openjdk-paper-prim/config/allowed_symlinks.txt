@@ -1,0 +1,10 @@
+/mnt/WORLDATA
+
+/mnt/WORLDATA/world
+/mnt/WORLDATA/world_nether
+/mnt/WORLDATA/world_the_end
+
+
+/mnt/WORLDATA/world/world
+/mnt/WORLDATA/world_nether/world_nether
+/mnt/WORLDATA/world_the_end/world_the_end

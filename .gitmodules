@@ -1,0 +1,3 @@
+[submodule "spud"]
+	path = spud
+	url = https://github.com/exciteabletom/spud.git

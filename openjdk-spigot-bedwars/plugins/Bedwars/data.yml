@@ -1,0 +1,329 @@
+stats:
+  04b6830f-5835-4ab1-b478-05a6abcb8d29:
+    beds: 15
+    kills: 16
+    games: 21
+    deaths: 34
+    wins: 11
+    points: 0
+  7bf59dd0-cb8c-48f5-802a-f8afe5e9f6a2:
+    beds: 1
+    kills: 6
+    games: 11
+    deaths: 9
+    wins: 4
+    points: 0
+  2f9c4c53-4530-4304-9049-42df6716f06d:
+    beds: 5
+    kills: 12
+    games: 10
+    deaths: 22
+    wins: 4
+    points: 0
+  bde46302-27f8-4d7d-9564-fb6ae44fc3a7:
+    beds: 0
+    kills: 0
+    games: 0
+    deaths: 0
+    wins: 0
+    points: 0
+  e67c9a87-a7f6-4514-9c86-c4f25e3ed47c:
+    beds: 0
+    kills: 0
+    games: 1
+    deaths: 2
+    wins: 0
+    points: 0
+  98224c77-697c-4bbc-a6a8-d13d02aeae28:
+    beds: 0
+    kills: 0
+    games: 0
+    deaths: 0
+    wins: 0
+    points: 0
+  ea6f3ac3-ca88-452b-9115-164aba51153d:
+    beds: 0
+    kills: 0
+    games: 0
+    deaths: 0
+    wins: 0
+    points: 0
+  f7e07ff7-6c38-4288-95a9-f499d6425a5e:
+    beds: 0
+    kills: 0
+    games: 0
+    deaths: 0
+    wins: 0
+    points: 0
+map:
+  Towers:
+    builder: Quijx
+    icon: SMOOTH_QUARTZ
+    spawn:
+      red:
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 84.54004017300946
+          y: 200.5
+          z: 1152.4823284552592
+          pitch: -0.29992718
+          yaw: -271.6555
+      blue:
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -83.5254640941192
+          y: 200.5
+          z: 1152.6107502826892
+          pitch: -4.499913
+          yaw: -87.45518
+    team:
+      red:
+        ==: me.MineHome.Bedwars.Game.BedwarsTeam
+        bed.head.location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 85.0
+          y: 192.0
+          z: 1152.0
+          pitch: 0.0
+          yaw: 0.0
+        bed.foot.location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 84.0
+          y: 192.0
+          z: 1152.0
+          pitch: 0.0
+          yaw: 0.0
+        spawn:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 84.54004017300946
+          y: 200.5
+          z: 1152.4823284552592
+          pitch: -0.29992718
+          yaw: -271.6555
+        bed.head.material: RED_BED
+        translationKey: team.red
+        color: c
+        bed.foot.material: RED_BED
+        bed.head.facing: EAST
+        bed.foot.facing: EAST
+        key: red
+      blue:
+        ==: me.MineHome.Bedwars.Game.BedwarsTeam
+        bed.head.location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -85.0
+          y: 192.0
+          z: 1152.0
+          pitch: 0.0
+          yaw: 0.0
+        bed.foot.location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -84.0
+          y: 192.0
+          z: 1152.0
+          pitch: 0.0
+          yaw: 0.0
+        spawn:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -83.5254640941192
+          y: 200.5
+          z: 1152.6107502826892
+          pitch: -4.499913
+          yaw: -87.45518
+        bed.head.material: RED_BED
+        translationKey: team.blue
+        color: '9'
+        bed.foot.material: RED_BED
+        bed.head.facing: WEST
+        bed.foot.facing: WEST
+        key: blue
+    world: The Towers
+    custom:
+      teamsize: 4
+      spawner:
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 900
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 49.29249754078221
+          y: 206.0
+          z: 1152.5731118473068
+          pitch: 21.900003
+          yaw: -0.7561035
+        currency: EMERALD
+        uuid: 91a080f6-0694-44a2-a549-e85b85f82700
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 300
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 63.47985397433372
+          y: 197.0
+          z: 1138.4288192177144
+          pitch: 3.6000106
+          yaw: -359.70508
+        currency: IRON
+        uuid: 737d747f-4897-47cc-89f3-cdc75d7e413b
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 600
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 63.44728642923992
+          y: 197.0
+          z: 1167.163255537005
+          pitch: 4.049986
+          yaw: -178.6565
+        currency: GOLD
+        uuid: 6d528f6f-31c0-4115-a1e3-a0fabdc0f966
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 1200
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 35.44624362145799
+          y: 191.5
+          z: 1166.699999988079
+          pitch: 4.9500256
+          yaw: -179.10645
+        currency: DIAMOND
+        uuid: f512c06e-4254-4165-a40c-58ed74f564b4
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 1200
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 35.35358572837828
+          y: 191.5
+          z: 1138.533056070591
+          pitch: 10.500013
+          yaw: -93.00763
+        currency: DIAMOND
+        uuid: 41beef38-40ce-44e7-835e-62a3d81ebdc3
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 1200
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -34.56674018822883
+          y: 191.5
+          z: 1138.6155020698172
+          pitch: 2.4000163
+          yaw: -3.6062622
+        currency: DIAMOND
+        uuid: 9797a658-7edd-4cba-ab09-2fd573764003
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 1200
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -34.30000001192092
+          y: 191.5
+          z: 1166.49517470663
+          pitch: 19.199972
+          yaw: -280.65594
+        currency: DIAMOND
+        uuid: 5a1daf4e-6308-4b61-92e8-4fc324cb8dd0
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 300
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -62.46047055880085
+          y: 197.0
+          z: 1166.3562568312877
+          pitch: 18.899984
+          yaw: -179.85681
+        currency: IRON
+        uuid: 7fe5e4cd-97b6-432b-9f05-8b1c93e3ad14
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 600
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -62.57676592607935
+          y: 197.0
+          z: 1138.4862382373017
+          pitch: 11.999979
+          yaw: -358.35736
+        currency: GOLD
+        uuid: d2842e0d-23b6-4c81-8a3e-fc20efa04a9f
+      - ==: me.MineHome.Bedwars.Game.ItemSpawner
+        delay: 900
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -48.45552142517352
+          y: 206.0
+          z: 1152.4237440708428
+          pitch: 38.249985
+          yaw: -90.15845
+        currency: EMERALD
+        uuid: 5645ad47-6e98-4573-9f47-e3f91c1229ab
+      npc:
+      - ==: me.MineHome.Bedwars.Shop.ShopNPC
+        name: doggg1
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: -60.472855280555166
+          y: 192.0
+          z: 1159.485744708353
+          pitch: 33.89994
+          yaw: -273.3081
+      - ==: me.MineHome.Bedwars.Shop.ShopNPC
+        name: doggg1
+        location:
+          ==: org.bukkit.Location
+          world: The Towers
+          x: 61.307674169983045
+          y: 192.0
+          z: 1145.6026373708714
+          pitch: 14.099926
+          yaw: -44.70706
+games:
+  Towers:
+    lobby:
+      x: 29.69610142334963
+      y: 64.0
+      z: 992.4002100565469
+      yaw: 49.79541
+      pitch: 2.9998124
+      world: The Towers
+    shop: villager
+    holo:
+      ==: org.bukkit.Location
+      world: The Towers
+      x: 29.69610142334963
+      y: 64.0
+      z: 992.4002100565469
+      pitch: 2.9998124
+      yaw: 49.79541
+ach:
+  04b6830f-5835-4ab1-b478-05a6abcb8d29:
+    '1': true
+    '8': true
+    '11': true
+    '10': true
+    '3': true
+  7bf59dd0-cb8c-48f5-802a-f8afe5e9f6a2:
+    '1': true
+    '6': true
+    '8': true
+    '3': true
+    '11': true
+  2f9c4c53-4530-4304-9049-42df6716f06d:
+    '6': true
+    '8': true
+    '1': true
+    '3': true
+    '11': true

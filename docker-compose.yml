@@ -1,0 +1,57 @@
+version: "3.9"
+services:
+  proxy:
+    build: openjdk-velocity/
+    restart: unless-stopped
+    ports:
+      - "25565:25565/tcp"
+    networks:
+      default:
+      minecraft:
+        ipv4_address: 14.0.0.2
+        
+  geyser:
+    build: openjdk-geyser/
+    restart: unless-stopped
+    ports:
+      - "19132:19132/udp"
+    networks:
+      default:
+      minecraft:
+        ipv4_address: 14.0.0.25
+        
+  hub:
+    build: openjdk-paper-hub/.
+    restart: unless-stopped
+    networks:
+      minecraft:
+        ipv4_address: 14.0.0.3
+        
+  primary:
+    build: openjdk-paper-prim/.
+    restart: unless-stopped
+    networks:
+      minecraft:
+        ipv4_address: 14.0.0.4
+        
+  bedwars:
+    build: openjdk-spigot-bedwars/.
+    restart: unless-stopped
+    networks:
+      minecraft:
+        ipv4_address: 14.0.0.5
+
+  mrc:
+    build: openjdk-paper-mrc/.
+    restart: unless-stopped
+    networks:
+      minecraft:
+        ipv4_address: 14.0.0.12
+
+
+networks:
+  minecraft:
+    ipam:
+      driver: default
+      config:
+        - subnet: "14.0.0.1/24"

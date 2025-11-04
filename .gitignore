@@ -1,0 +1,11 @@
+# Ignore these files
+
+backup/
+
+key.pem
+*.secret
+usercache.json
+*/worlds/
+*.log
+*.png
+*.jpg

@@ -1,0 +1,6 @@
+/mnt/WORLDATA
+
+/mnt/WORLDATA/world
+
+/mnt/WORLDATA/world/world
+
