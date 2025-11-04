@@ -4,3 +4,10 @@ A Minecraft server consisting of a proxy, lobby, packet translator, and a few ot
 Intended and designed as a small private server between friends. 
 
 ### ! Has not been tested or modified since ~2023 !
+
+Dependancies:
+Docker
+Git
+
+To start the server run:
+docker-compose up -d
