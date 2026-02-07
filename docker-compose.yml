@@ -1,7 +1,6 @@
-version: "3.9"
 services:
-  proxy:
-    build: openjdk-velocity/
+  velocity:
+    build: alpine-velocity/
     restart: unless-stopped
     ports:
       - "25565:25565/tcp"
@@ -11,7 +10,7 @@ services:
         ipv4_address: 14.0.0.2
         
   geyser:
-    build: openjdk-geyser/
+    build: alpine-geyser/
     restart: unless-stopped
     ports:
       - "19132:19132/udp"
@@ -21,32 +20,18 @@ services:
         ipv4_address: 14.0.0.25
         
   hub:
-    build: openjdk-paper-hub/.
+    build: alpine-paper-hub/.
     restart: unless-stopped
     networks:
       minecraft:
         ipv4_address: 14.0.0.3
         
-  primary:
-    build: openjdk-paper-prim/.
+  modpack:
+    build: alpine-sponge-modpack/.
     restart: unless-stopped
     networks:
       minecraft:
-        ipv4_address: 14.0.0.4
-        
-  bedwars:
-    build: openjdk-spigot-bedwars/.
-    restart: unless-stopped
-    networks:
-      minecraft:
-        ipv4_address: 14.0.0.5
-
-  mrc:
-    build: openjdk-paper-mrc/.
-    restart: unless-stopped
-    networks:
-      minecraft:
-        ipv4_address: 14.0.0.12
+        ipv4_address: 14.0.0.11
 
 
 networks:
@@ -54,4 +39,4 @@ networks:
     ipam:
       driver: default
       config:
-        - subnet: "14.0.0.1/24"
+        - subnet: "14.0.0.0/24"

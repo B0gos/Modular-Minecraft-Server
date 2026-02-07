@@ -1,0 +1,132 @@
+train1:
+  collisionDamage: 1.0
+  tickets: []
+  collision:
+    passive: DEFAULT
+    neutral: DEFAULT
+    hostile: DEFAULT
+    tameable: DEFAULT
+    utility: DEFAULT
+    boss: DEFAULT
+    misc: PUSH
+    players: DEFAULT
+    train: LINK
+    block: DEFAULT
+  carts:
+    34f79218-078c-4b0e-aaf5-332dcd005b3e:
+      owners:
+        - doggg1
+      driveSound: ''
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          0:
+            type: SEAT
+            position: {}
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            ejectPosition:
+              lockRotation: false
+              anchor: default
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position: {}
+        sitting: false
+train2:
+  collisionDamage: 1.0
+  tickets: []
+  collision:
+    passive: DEFAULT
+    neutral: DEFAULT
+    hostile: DEFAULT
+    tameable: DEFAULT
+    utility: DEFAULT
+    boss: DEFAULT
+    misc: PUSH
+    players: DEFAULT
+    train: LINK
+    block: DEFAULT
+  carts:
+    66cf8aa7-0104-49db-9d98-ca108f6c516e:
+      owners:
+        - yudan_wolf
+      driveSound: ''
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          0:
+            type: SEAT
+            position: {}
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            ejectPosition:
+              lockRotation: false
+              anchor: default
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position: {}
+        sitting: false
+train3:
+  collisionDamage: 1.0
+  tickets: []
+  collision:
+    passive: DEFAULT
+    neutral: DEFAULT
+    hostile: DEFAULT
+    tameable: DEFAULT
+    utility: DEFAULT
+    boss: DEFAULT
+    misc: PUSH
+    players: DEFAULT
+    train: LINK
+    block: DEFAULT
+  carts:
+    3db85bfd-0acc-434b-9cf4-d0f6ea4632ac:
+      owners:
+        - ilike_tacosdoyou
+      driveSound: ''
+      model:
+        type: ENTITY
+        entityType: MINECART
+        attachments:
+          0:
+            type: SEAT
+            position: {}
+            displayMode: DEFAULT
+            lockRotation: false
+            firstPersonViewMode: DYNAMIC
+            ejectPosition:
+              lockRotation: false
+              anchor: default
+              posX: 0.0
+              posY: 0.0
+              posZ: 0.0
+              rotX: 0.0
+              rotY: 0.0
+              rotZ: 0.0
+        physical:
+          cartLength: 0.98
+          wheelCenter: 0.0
+          wheelDistance: 0.0
+        position: {}
+        sitting: false
